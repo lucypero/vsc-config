@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Pink Cat Boo",
+    "editor.fontFamily": "'Fira Code Retina' ,Consolas, 'Courier New', monospace",
+    "editor.minimap.enabled": false,
+    "rust-analyzer.inlayHints.parameterHints": false,
+    "git.enableSmartCommit": true,
+    "editor.lineNumbers": "relative",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "rust-analyzer.inlayHints.enable": false,
+    "vim.leader": "-",
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [ "<leader>", "s" ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": [ "<leader>", "S" ],
+            "commands": [
+                "workbench.action.files.saveFiles"
+            ]
+        },
+        {
+            "before": [ "<leader>", "w"],
+            "after": [ "<C-w>", "<C-w>"]
+        }
+    ],
+}
