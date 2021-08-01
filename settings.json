@@ -1,14 +1,23 @@
 {
-    "workbench.colorTheme": "Pink Cat Boo",
-    "editor.fontFamily": "'Fira Code Retina' ,Consolas, 'Courier New', monospace",
+    "workbench.colorTheme": "One Dark Pro",
     "editor.minimap.enabled": false,
     "rust-analyzer.inlayHints.parameterHints": false,
     "git.enableSmartCommit": true,
     "editor.lineNumbers": "relative",
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "rust-analyzer.inlayHints.enable": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
+    "grunt.autoDetect": "on",
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "'Fira Code Retina', Consolas, 'Courier New', monospace",
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+
+    //Vim
     "vim.leader": "-",
     "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [ "<leader>", "s" ],
@@ -25,6 +34,25 @@
         {
             "before": [ "<leader>", "w"],
             "after": [ "<C-w>", "<C-w>"]
+        },
+        {
+            "before": [ "<C-e>"],
+            "commands": [
+                {
+                    "command": "vscode.setEditorLayout",
+                    "args": {"orientation": 0, "groups": [{}]}
+                },
+                {
+                    "command":":vsp"
+                }
+            ]
         }
     ],
+    "vim.handleKeys": {
+        "<C-k>": false,
+        "<C-n>": true,
+        "<C-p>": true,
+        "<C-S>": true,
+        "<C-1>": true,
+    },
 }

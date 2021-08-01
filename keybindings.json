@@ -3,5 +3,15 @@
     {
         "key": "f5",
         "command": "workbench.action.tasks.reRunTask"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.quickOpenSelectNext",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpenSelectPrevious",
+        "when": "!editorFocus"
     }
 ]
