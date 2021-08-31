@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "quantum",
     "editor.minimap.enabled": false,
     "rust-analyzer.inlayHints.parameterHints": false,
     "git.enableSmartCommit": true,
@@ -187,5 +186,6 @@
                 }
             }
         ]
-    }
+    },
+    "workbench.colorTheme": "One Dark Pro"
 }
